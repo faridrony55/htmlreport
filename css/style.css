@@ -21,14 +21,13 @@ font-weight: 700;
 }
 section {
     /* padding: 60px 0; */
-    background: #5a5a5a;
 }
 
 #header {
     background-color: #5a5a5a;
     padding: 0;
 }
-#header  div{
+#header> div {
     background-color: #232321;
 
 }
@@ -74,11 +73,11 @@ section {
 }
 
 #info{
-    background-color: #5a5a5a;
+    background-color: #fff; 
 }
 #info .container{
-        background-color: #171f2e;
-        padding: 60px 0;
+        background-color: #e9ebee;
+    padding: 60px 0;
 }
 
 #info img {
@@ -88,7 +87,6 @@ section {
 h1 {
     margin-bottom: 60px;
     font-weight: 500;
-    color: #fff;
 }
 
 h3,
@@ -98,13 +96,11 @@ h3,
 
 #info h5{
     margin-bottom: 12px;
-    color: #fff;
 }
 
 .para {
     font-size: 12px;
     padding: 0 10%;
-    color: #fff;
 }
 
 #info h2 {
@@ -136,7 +132,6 @@ h3,
 
 #info h3 {
     margin-bottom: 20px;
-    color: #fff;
 }
 
 #info button {
@@ -144,7 +139,7 @@ h3,
 }
 
 #view .container{
-    background-color: #171f2e;
+    background-color: #e9ebee;
     padding: 60px 0;
 }
 
@@ -227,9 +222,12 @@ h3,
 #seo {
     border-bottom: 1px solid rgba(233, 235, 238, 0.2);
     background: #5a5a5a;
+    /* padding: 60px 0; */
 }
 #seo .container,#suggestion .container,#grade .container{
         background-color: #171f2e;
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 #suggestion{
@@ -705,13 +703,11 @@ display: none;
 #myTab .nav-link {
     display: block;
     padding: 10px 30px;
-    background: orange;
+    background: #232321;
     color: #fff;
     margin: 10px;
 }   
-h4,p, h5 { 
-    color: #fff;
-}
+
 .orange{
     background-color: orange
 }
