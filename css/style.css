@@ -552,6 +552,10 @@ iframe {
 }
 }
 @media (max-width: 991px){
+    #header h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
     .desktop{
         left: 0;
         border-left: 16px solid transparent;
